@@ -28,7 +28,6 @@ public class LB_main {
 			System.out.print("ip 입력하세요: ");
 			int ip=in.nextInt();
 			System.out.print("내용 입력하세요: ");
-			//String content=in.nextLine();
 			String content=bf.readLine();
 			System.out.print("현재 시간: ");
 			SimpleDateFormat format1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss");
@@ -50,7 +49,7 @@ public class LB_main {
 			
 			for(int i=0;i<sinfo.length;i++) {
 				int chk=sinfo[i].getIP(ipx);
-				//System.out.println(chk);
+
 				if(chk==ipx) {
 					System.out.println("\n---------------------------------------");
 					System.out.println("서버번호\t\t "+i);
